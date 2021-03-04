@@ -18,6 +18,7 @@
 		B972FF0C25E9A11500A5C343 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF0B25E9A11500A5C343 /* EditView.swift */; };
 		B972FF1125E9A20700A5C343 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF1025E9A20700A5C343 /* Result.swift */; };
 		B972FF1625E9B36400A5C343 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF1525E9B36400A5C343 /* MKPointAnnotation-Codable.swift */; };
+		B972FF1C25E9B91300A5C343 /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972FF1B25E9B91300A5C343 /* MapContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B972FF0B25E9A11500A5C343 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		B972FF1025E9A20700A5C343 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		B972FF1525E9B36400A5C343 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		B972FF1B25E9B91300A5C343 /* MapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,6 @@
 		B972FEC325E83E0000A5C343 = {
 			isa = PBXGroup;
 			children = (
-				B972FF1525E9B36400A5C343 /* MKPointAnnotation-Codable.swift */,
 				B972FECE25E83E0000A5C343 /* BucketList */,
 				B972FEE025E83E0200A5C343 /* BucketListTests */,
 				B972FEEB25E83E0200A5C343 /* BucketListUITests */,
@@ -106,11 +107,10 @@
 		B972FECE25E83E0000A5C343 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				B972FF1A25E9B90100A5C343 /* Views */,
+				B972FF1525E9B36400A5C343 /* MKPointAnnotation-Codable.swift */,
 				B972FECF25E83E0000A5C343 /* BucketListApp.swift */,
-				B972FED125E83E0000A5C343 /* ContentView.swift */,
 				B972FF1025E9A20700A5C343 /* Result.swift */,
-				B972FF0125E895FE00A5C343 /* MapView.swift */,
-				B972FF0B25E9A11500A5C343 /* EditView.swift */,
 				B972FF0625E9A0CE00A5C343 /* MKPointAnnotation-ObservableObject.swift */,
 				B972FED325E83E0200A5C343 /* Assets.xcassets */,
 				B972FED825E83E0200A5C343 /* Info.plist */,
@@ -143,6 +143,17 @@
 				B972FEEE25E83E0200A5C343 /* Info.plist */,
 			);
 			path = BucketListUITests;
+			sourceTree = "<group>";
+		};
+		B972FF1A25E9B90100A5C343 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B972FED125E83E0000A5C343 /* ContentView.swift */,
+				B972FF0125E895FE00A5C343 /* MapView.swift */,
+				B972FF0B25E9A11500A5C343 /* EditView.swift */,
+				B972FF1B25E9B91300A5C343 /* MapContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				B972FF1625E9B36400A5C343 /* MKPointAnnotation-Codable.swift in Sources */,
 				B972FF1125E9A20700A5C343 /* Result.swift in Sources */,
 				B972FED225E83E0000A5C343 /* ContentView.swift in Sources */,
+				B972FF1C25E9B91300A5C343 /* MapContentView.swift in Sources */,
 				B972FF0C25E9A11500A5C343 /* EditView.swift in Sources */,
 				B972FF0725E9A0CE00A5C343 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				B972FF0225E895FE00A5C343 /* MapView.swift in Sources */,
